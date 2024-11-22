@@ -1,0 +1,37 @@
+.task-board {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid #e3e3e3;
+}
+
+.column {
+  flex: 1;
+  min-height: 500px;
+  border: 1px solid #e3e3e3;
+  text-align: center;
+}
+
+.column-header {
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 10px;
+}
+
+.task-item {
+  background-color: #f6f6f6;
+  margin: 10px;
+  padding: 10px;
+}
+
+#create-form {
+  width: 400px !important;
+}
+
+.header-txt {
+  color: darkgreen;
+}
+
+.task-list-header {
+  display: flex;
+  justify-content: center;
+}

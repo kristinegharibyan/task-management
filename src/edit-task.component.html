@@ -1,0 +1,22 @@
+<div class="modal" id="edit-modal" style="display: none;">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Edit Task</h2>
+    <form id="edit-form">
+      <label for="edit-task-name">Task Title:</label>
+      <input type="text" id="edit-task-name" name="edit-task-name" required>
+      
+      <label for="edit-task-desc">Task Description:</label>
+      <input type="text" id="edit-task-desc" name="edit-task-desc" required>
+      
+      <label for="edit-task-status">Task Status:</label>
+      <select id="edit-task-status" name="edit-task-status">
+        <option value="todo">To Do</option>
+        <option value="inprogress">In Progress</option>
+        <option value="done">Done</option>
+      </select>
+      
+      <button type="button" id="save-task">Save</button>
+    </form>
+  </div>
+</div>
